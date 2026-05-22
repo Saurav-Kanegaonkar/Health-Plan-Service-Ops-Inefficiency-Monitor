@@ -1,0 +1,7 @@
+check_id,source_system,check_name,pass_rate,failing_records,freshness_hours,certification,operating_fix
+DQ-001,Service CRM,contact_reason_mapping,0.94,158,18,Certified,Certify reason hierarchy before dashboard expansion
+DQ-002,Claims platform,claim_status_freshness,0.89,345,3,Watch,Add freshness check to daily load
+DQ-003,Utilization management system,auth_case_join_rate,0.87,664,12,Needs work,Review auth identifiers missing from service contacts
+DQ-004,Provider data mart,provider_directory_alignment,0.91,255,3,Watch,Reconcile provider IDs with latest directory snapshot
+DQ-005,Billing ledger,payment_event_completeness,0.96,113,4,Certified,Monitor grace-period file delivery
+DQ-006,Looker semantic layer,metric_definition_coverage,0.84,512,26,Needs work,Add certified dimensions for repeat-contact analysis

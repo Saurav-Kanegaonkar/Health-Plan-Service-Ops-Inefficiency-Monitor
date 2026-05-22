@@ -1,26 +1,25 @@
-entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
-SER009,Service inefficiency segment 9,Watch,93.53,51.3,79.6,773308
-SER001,Service inefficiency segment 1,Growth,90.55,49.3,79.5,747389
-SER013,Service inefficiency segment 13,Strategic,88.20,49.3,78.7,711057
-SER020,Service inefficiency segment 20,Strategic,87.94,51.8,79.4,688875
-SER028,Service inefficiency segment 28,Growth,85.44,50.7,80.3,668005
-SER005,Service inefficiency segment 5,Watch,85.31,55.7,80.0,621317
-SER031,Service inefficiency segment 31,Core,84.92,54.5,82.2,636020
-SER033,Service inefficiency segment 33,Growth,84.16,53.9,80.3,622325
-SER011,Service inefficiency segment 11,Core,83.25,50.9,81.5,640603
-SER025,Service inefficiency segment 25,Watch,82.88,51.9,81.7,627450
-SER010,Service inefficiency segment 10,Growth,81.90,53.7,77.0,577471
-SER036,Service inefficiency segment 36,Strategic,81.64,50.6,80.8,618104
-SER030,Service inefficiency segment 30,Core,81.63,54.8,79.0,572999
-SER016,Service inefficiency segment 16,Watch,81.33,52.5,81.0,597139
-SER018,Service inefficiency segment 18,Strategic,80.87,53.5,82.1,587533
-SER019,Service inefficiency segment 19,Core,80.26,52.8,81.6,583288
-SER017,Service inefficiency segment 17,Core,79.99,52.0,80.3,580320
-SER032,Service inefficiency segment 32,Watch,78.62,50.4,80.6,576408
-SER022,Service inefficiency segment 22,Watch,78.61,50.7,81.7,578319
-SER002,Service inefficiency segment 2,Strategic,78.43,51.0,82.2,575695
-SER023,Service inefficiency segment 23,Growth,77.15,52.1,80.1,539032
-SER026,Service inefficiency segment 26,Growth,77.06,48.6,79.9,566950
-SER007,Service inefficiency segment 7,Growth,76.83,49.9,80.4,554491
-SER004,Service inefficiency segment 4,Strategic,76.16,48.6,80.5,556708
-SER012,Service inefficiency segment 12,Core,75.89,48.5,80.9,555729
+rank,segment_id,business_unit,segment_name,inefficiency_theme,priority_score,six_week_volume,avoidable_contacts,avoidable_delta,estimated_cost_leakage,utilization_exposure,member_abrasion_index,sla_attainment,repeat_contact_rate,recommended_action,leadership_note
+1,SEG-006,Claims Operations,Appeal intake rework,Claims escalation,64.1,71134,45640,931,666533,311429,22.2,0.732,0.22,Manager review and requirement enhancement,"Appeal intake rework has 45,640 avoidable contacts over six weeks with $666,533 estimated service cost exposure and $311,429 utilization exposure."
+2,SEG-009,Utilization Management,Concurrent review extension queue,Clinical utilization,53.3,43552,22796,-1345,535730,197373,20.5,0.756,0.196,Root-cause repeat contacts,"Concurrent review extension queue has 22,796 avoidable contacts over six weeks with $535,730 estimated service cost exposure and $197,373 utilization exposure."
+3,SEG-004,Claims Operations,Claims status repeat contact,Claims transparency,52.4,73630,36044,-1590,637995,339069,17.9,0.76,0.172,Quantify financial leakage,"Claims status repeat contact has 36,044 avoidable contacts over six weeks with $637,995 estimated service cost exposure and $339,069 utilization exposure."
+4,SEG-014,Billing and Enrollment,Enrollment file mismatch,Enrollment operations,52.4,57960,30240,-195,519990,200468,20.3,0.785,0.203,Root-cause repeat contacts,"Enrollment file mismatch has 30,240 avoidable contacts over six weeks with $519,990 estimated service cost exposure and $200,468 utilization exposure."
+5,SEG-013,Billing and Enrollment,Premium payment reconciliation,Billing operations,52.1,64893,28947,2924,457567,237335,19.9,0.765,0.182,Root-cause repeat contacts,"Premium payment reconciliation has 28,947 avoidable contacts over six weeks with $457,567 estimated service cost exposure and $237,335 utilization exposure."
+6,SEG-002,Member Services,Provider directory mismatch calls,Network data quality,49.6,102329,40503,6003,465819,262865,15.2,0.795,0.15,Quantify financial leakage,"Provider directory mismatch calls has 40,503 avoidable contacts over six weeks with $465,819 estimated service cost exposure and $262,865 utilization exposure."
+7,SEG-005,Claims Operations,Pended claim documentation chase,Claims documentation,48.1,85003,32501,1988,494152,474591,16.8,0.779,0.139,Quantify financial leakage,"Pended claim documentation chase has 32,501 avoidable contacts over six weeks with $494,152 estimated service cost exposure and $474,591 utilization exposure."
+8,SEG-012,Provider Services,Credentialing status questions,Provider onboarding,46.4,75988,32300,-2374,681404,251968,15.7,0.809,0.16,Quantify financial leakage,"Credentialing status questions has 32,300 avoidable contacts over six weeks with $681,404 estimated service cost exposure and $251,968 utilization exposure."
+9,SEG-010,Provider Services,Provider demographic update requests,Provider data maintenance,44.4,49909,20896,1782,242440,178783,17.2,0.777,0.163,Quantify financial leakage,"Provider demographic update requests has 20,896 avoidable contacts over six weeks with $242,440 estimated service cost exposure and $178,783 utilization exposure."
+10,SEG-008,Utilization Management,Imaging authorization turnaround,Utilization review,42.5,52558,19481,-3007,372202,305432,15.9,0.773,0.15,Quantify financial leakage,"Imaging authorization turnaround has 19,481 avoidable contacts over six weeks with $372,202 estimated service cost exposure and $305,432 utilization exposure."
+11,SEG-023,Risk Adjustment Support,In-home assessment scheduling,Risk adjustment,38.7,30883,11390,752,233351,184508,15.4,0.793,0.132,Quantify financial leakage,"In-home assessment scheduling has 11,390 avoidable contacts over six weeks with $233,351 estimated service cost exposure and $184,508 utilization exposure."
+12,SEG-011,Provider Services,Contracted rate clarification,Provider payment support,38.6,53724,19721,1193,390417,172319,13.0,0.824,0.132,Quantify financial leakage,"Contracted rate clarification has 19,721 avoidable contacts over six weeks with $390,417 estimated service cost exposure and $172,319 utilization exposure."
+13,SEG-007,Utilization Management,Prior authorization status follow-up,Authorization visibility,37.7,57155,19633,-686,380764,380201,12.0,0.828,0.123,Tighten utilization handoff,"Prior authorization status follow-up has 19,633 avoidable contacts over six weeks with $380,764 estimated service cost exposure and $380,201 utilization exposure."
+14,SEG-001,Member Services,Digital password reset and login help,Access friction,36.9,94620,31886,-3908,513591,124110,13.0,0.819,0.129,Quantify financial leakage,"Digital password reset and login help has 31,886 avoidable contacts over six weeks with $513,591 estimated service cost exposure and $124,110 utilization exposure."
+15,SEG-024,Risk Adjustment Support,Provider coding education outreach,Risk adjustment,36.7,24405,8440,-270,178063,165326,16.0,0.803,0.145,Tighten utilization handoff,"Provider coding education outreach has 8,440 avoidable contacts over six weeks with $178,063 estimated service cost exposure and $165,326 utilization exposure."
+16,SEG-003,Member Services,Benefits and cost-share explanation,Plan literacy,35.3,110413,27698,799,302126,481224,11.9,0.796,0.097,Quantify financial leakage,"Benefits and cost-share explanation has 27,698 avoidable contacts over six weeks with $302,126 estimated service cost exposure and $481,224 utilization exposure."
+17,SEG-018,Pharmacy Operations,Medication prior authorization handoff,Pharmacy utilization,34.9,39716,13137,1572,254819,187831,11.7,0.833,0.118,Quantify financial leakage,"Medication prior authorization handoff has 13,137 avoidable contacts over six weeks with $254,819 estimated service cost exposure and $187,831 utilization exposure."
+18,SEG-015,Billing and Enrollment,Binder payment grace period outreach,Billing operations,33.1,53532,17278,-3816,330087,129399,12.0,0.852,0.132,Quantify financial leakage,"Binder payment grace period outreach has 17,278 avoidable contacts over six weeks with $330,087 estimated service cost exposure and $129,399 utilization exposure."
+19,SEG-019,Care Navigation,Care guide handoff after ED visit,Care navigation,31.7,39619,12008,-697,201734,77837,14.1,0.815,0.113,Monitor trend and owner notes,"Care guide handoff after ED visit has 12,008 avoidable contacts over six weeks with $201,734 estimated service cost exposure and $77,837 utilization exposure."
+20,SEG-016,Pharmacy Operations,Formulary exception status,Pharmacy operations,29.3,27505,7811,-1305,140760,126598,11.6,0.82,0.106,Monitor trend and owner notes,"Formulary exception status has 7,811 avoidable contacts over six weeks with $140,760 estimated service cost exposure and $126,598 utilization exposure."
+21,SEG-022,Risk Adjustment Support,Risk adjustment chart retrieval,Risk adjustment,29.3,22725,6653,454,122969,109064,11.4,0.835,0.108,Monitor trend and owner notes,"Risk adjustment chart retrieval has 6,653 avoidable contacts over six weeks with $122,969 estimated service cost exposure and $109,064 utilization exposure."
+22,SEG-020,Care Navigation,Virtual care routing issue,Care navigation,27.7,35748,8813,890,146262,124318,10.8,0.816,0.085,Tighten utilization handoff,"Virtual care routing issue has 8,813 avoidable contacts over six weeks with $146,262 estimated service cost exposure and $124,318 utilization exposure."
+23,SEG-021,Care Navigation,Complex case follow-up lag,Care navigation,24.8,39499,8539,-156,147725,133052,10.0,0.835,0.086,Monitor trend and owner notes,"Complex case follow-up lag has 8,539 avoidable contacts over six weeks with $147,725 estimated service cost exposure and $133,052 utilization exposure."
+24,SEG-017,Pharmacy Operations,Specialty medication shipment issue,Pharmacy operations,20.2,42618,6673,-871,132833,249986,7.3,0.868,0.057,Tighten utilization handoff,"Specialty medication shipment issue has 6,673 avoidable contacts over six weeks with $132,833 estimated service cost exposure and $249,986 utilization exposure."

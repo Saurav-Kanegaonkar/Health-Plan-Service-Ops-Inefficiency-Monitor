@@ -1,0 +1,15 @@
+{
+  "latest_week": "2026-05-18",
+  "active_segments": 24,
+  "total_contacts": 220278,
+  "avoidable_contacts": 83562,
+  "avoidable_contact_rate": 0.379,
+  "weekly_cost_leakage": 1388864,
+  "weekly_utilization_exposure": 879194,
+  "high_priority_segments": 1,
+  "top_segment": "Appeal intake rework",
+  "top_business_unit": "Claims Operations",
+  "top_priority_score": 64.1,
+  "estimated_contacts_avoided": 52590,
+  "estimated_cost_avoided": 829359
+}

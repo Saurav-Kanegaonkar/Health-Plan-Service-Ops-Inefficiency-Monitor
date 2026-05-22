@@ -1,15 +1,14 @@
 # Executive Findings
 
-## What I analyzed
+## Readout
 
-I joined 5,040 daily metric rows, 760 source events, and 220 action candidates for health plan service operations analytics.
+- The latest synthetic week includes 220,278 service contacts and 83,562 avoidable contacts.
+- The modeled avoidable-contact rate is 37.9%, with $1,388,864 in weekly service cost leakage.
+- 1 segments exceed the high-priority threshold for manager follow-up.
+- The top segment is Appeal intake rework in Claims Operations with a priority score of 64.1.
 
-## Findings
+## Recommended Operating Moves
 
-- The highest-priority service inefficiency segment is SER009 with a priority score of 93.53.
-- The top queue combines 51.3 average risk with 79.6 quality score and $773,308 estimated impact.
-- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
-
-## Recommendation
-
-Prioritize the top queue before scaling more dashboards. The project should help leaders decide which service inefficiency segment risks need action, validation, or monitoring.
+- Use the priority queue for the next service operations review.
+- Convert repeated stakeholder requests into dashboard requirements instead of one-off pulls.
+- Track initiative impact by avoided contacts and avoided cost, not only completion status.

@@ -1,0 +1,25 @@
+segment_id,business_unit,segment_name,inefficiency_theme,primary_stakeholder,baseline_weekly_volume,financial_sensitivity,utilization_sensitivity,avoidable_contact_base
+SEG-001,Member Services,Digital password reset and login help,Access friction,Associate Director,15618,16.1,0.1,0.36
+SEG-002,Member Services,Provider directory mismatch calls,Network data quality,Operations Manager,15700,11.5,0.2,0.35
+SEG-003,Member Services,Benefits and cost-share explanation,Plan literacy,Associate Director,18074,10.9,0.31,0.26
+SEG-004,Claims Operations,Claims status repeat contact,Claims transparency,Senior Manager,11539,17.7,0.33,0.52
+SEG-005,Claims Operations,Pended claim documentation chase,Claims documentation,Associate Director,12898,15.2,0.47,0.39
+SEG-006,Claims Operations,Appeal intake rework,Claims escalation,Senior Manager,11178,14.6,0.33,0.64
+SEG-007,Utilization Management,Prior authorization status follow-up,Authorization visibility,Operations Manager,9097,19.4,0.51,0.35
+SEG-008,Utilization Management,Imaging authorization turnaround,Utilization review,Operations Manager,8216,19.1,0.43,0.4
+SEG-009,Utilization Management,Concurrent review extension queue,Clinical utilization,Senior Manager,6992,23.5,0.38,0.54
+SEG-010,Provider Services,Provider demographic update requests,Provider data maintenance,Analytics Manager,7980,11.6,0.27,0.43
+SEG-011,Provider Services,Contracted rate clarification,Provider payment support,Senior Manager,8860,19.8,0.22,0.34
+SEG-012,Provider Services,Credentialing status questions,Provider onboarding,Analytics Manager,12491,21.1,0.25,0.43
+SEG-013,Billing and Enrollment,Premium payment reconciliation,Billing operations,Analytics Manager,9963,15.8,0.26,0.46
+SEG-014,Billing and Enrollment,Enrollment file mismatch,Enrollment operations,Senior Manager,9918,17.2,0.29,0.49
+SEG-015,Billing and Enrollment,Binder payment grace period outreach,Billing operations,Operations Manager,9132,19.1,0.18,0.34
+SEG-016,Pharmacy Operations,Formulary exception status,Pharmacy operations,Senior Manager,4827,18.0,0.33,0.3
+SEG-017,Pharmacy Operations,Specialty medication shipment issue,Pharmacy operations,Senior Manager,6812,19.9,0.44,0.18
+SEG-018,Pharmacy Operations,Medication prior authorization handoff,Pharmacy utilization,Analytics Manager,6456,19.4,0.35,0.3
+SEG-019,Care Navigation,Care guide handoff after ED visit,Care navigation,Operations Manager,6467,16.8,0.15,0.31
+SEG-020,Care Navigation,Virtual care routing issue,Care navigation,Operations Manager,5701,16.6,0.3,0.23
+SEG-021,Care Navigation,Complex case follow-up lag,Care navigation,Senior Manager,6157,17.3,0.23,0.24
+SEG-022,Risk Adjustment Support,Risk adjustment chart retrieval,Risk adjustment,Associate Director,3731,18.5,0.38,0.28
+SEG-023,Risk Adjustment Support,In-home assessment scheduling,Risk adjustment,Senior Manager,4659,20.5,0.44,0.37
+SEG-024,Risk Adjustment Support,Provider coding education outreach,Risk adjustment,Operations Manager,4011,21.1,0.53,0.35

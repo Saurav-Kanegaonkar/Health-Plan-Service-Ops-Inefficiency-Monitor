@@ -1,0 +1,9 @@
+initiative_id,segment_id,segment_name,owner,initiative,baseline_avoidable_contacts,target_reduction,current_reduction,estimated_contacts_avoided,estimated_cost_avoided,status
+INIT-001,SEG-006,Appeal intake rework,Noah,Queue routing rule update,45640,0.27,0.32,14604,162920,Ahead
+INIT-002,SEG-009,Concurrent review extension queue,Mina,Authorization handoff checklist,22796,0.22,0.2,4559,90826,At risk
+INIT-003,SEG-004,Claims status repeat contact,Jordan,Queue routing rule update,36044,0.22,0.2,7208,147332,At risk
+INIT-004,SEG-014,Enrollment file mismatch,Noah,Queue routing rule update,30240,0.22,0.15,4536,65154,At risk
+INIT-005,SEG-013,Premium payment reconciliation,Elena,Queue routing rule update,28947,0.22,0.15,4342,89779,At risk
+INIT-006,SEG-002,Provider directory mismatch calls,Noah,Claims status explanation refresh,40503,0.21,0.18,7290,100966,At risk
+INIT-007,SEG-005,Pended claim documentation chase,Noah,Claims status explanation refresh,32501,0.2,0.19,6175,87318,At risk
+INIT-008,SEG-012,Credentialing status questions,Mina,Self-service content fix,32300,0.19,0.12,3876,85064,At risk

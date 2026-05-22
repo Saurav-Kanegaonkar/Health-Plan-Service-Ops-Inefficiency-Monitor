@@ -1,0 +1,19 @@
+request_id,segment_id,business_unit,request_type,requested_by,dashboard_gap,decision_supported,status,priority
+REQ-001,SEG-006,Claims Operations,Manager follow-up,Associate Director,Add drilldown and owner notes,Weekly operating review,Ready for requirements,1
+REQ-002,SEG-009,Utilization Management,Dashboard enhancement,Ops Manager,Add metric definition tooltip,Staffing and routing decision,Monitor,2
+REQ-003,SEG-004,Claims Operations,Executive operating review,Ops Manager,Add metric definition tooltip,Weekly operating review,Monitor,3
+REQ-004,SEG-014,Billing and Enrollment,Root cause drilldown,Sr. Manager,Add metric definition tooltip,Staffing and routing decision,Monitor,4
+REQ-005,SEG-013,Billing and Enrollment,Root cause drilldown,Sr. Manager,Add trend alert and threshold,Weekly operating review,Needs scoping,5
+REQ-006,SEG-002,Member Services,Executive operating review,Analytics Lead,Add trend alert and threshold,Weekly operating review,Needs scoping,6
+REQ-007,SEG-005,Claims Operations,Root cause drilldown,Analytics Lead,Add trend alert and threshold,Weekly operating review,Needs scoping,7
+REQ-008,SEG-012,Provider Services,Dashboard enhancement,Associate Director,Add metric definition tooltip,Utilization handoff cleanup,Monitor,8
+REQ-009,SEG-010,Provider Services,Root cause drilldown,Ops Manager,Add trend alert and threshold,Utilization handoff cleanup,Needs scoping,9
+REQ-010,SEG-008,Utilization Management,Root cause drilldown,Associate Director,Add metric definition tooltip,Weekly operating review,Monitor,10
+REQ-011,SEG-023,Risk Adjustment Support,Executive operating review,Associate Director,Add trend alert and threshold,Provider data remediation,Needs scoping,11
+REQ-012,SEG-011,Provider Services,Manager follow-up,Sr. Manager,Add trend alert and threshold,Staffing and routing decision,Needs scoping,12
+REQ-013,SEG-007,Utilization Management,Manager follow-up,Sr. Manager,Add metric definition tooltip,Utilization handoff cleanup,Monitor,13
+REQ-014,SEG-001,Member Services,Executive operating review,Associate Director,Add metric definition tooltip,Claims rework reduction,Monitor,14
+REQ-015,SEG-024,Risk Adjustment Support,Root cause drilldown,Sr. Manager,Add metric definition tooltip,Provider data remediation,Monitor,15
+REQ-016,SEG-003,Member Services,Executive operating review,Ops Manager,Add trend alert and threshold,Utilization handoff cleanup,Needs scoping,16
+REQ-017,SEG-018,Pharmacy Operations,Dashboard enhancement,Analytics Lead,Add trend alert and threshold,Staffing and routing decision,Needs scoping,17
+REQ-018,SEG-015,Billing and Enrollment,Manager follow-up,Associate Director,Add metric definition tooltip,Staffing and routing decision,Monitor,18

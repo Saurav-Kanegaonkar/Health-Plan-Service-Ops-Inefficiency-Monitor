@@ -4,51 +4,128 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Health Plan Service Ops Inefficiency Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#dc2626;--bg:#fff1f2">
+<body>
   <main class="shell">
     <header class="hero">
-      <div>
-        <p class="eyebrow">Ops Console / health plan service operations analytics</p>
-        <h1>Health Plan Service Ops Inefficiency Monitor</h1>
+      <div class="hero-copy">
+        <p class="eyebrow">Service operations analytics</p>
+        <h1>Health Plan Inefficiency Monitor</h1>
+        <p class="lede">A decision workbench for finding avoidable service friction, sizing financial and utilization exposure, and turning stakeholder asks into a repeatable operating cadence.</p>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy service inefficiency segment-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
+      <aside class="hero-brief">
+        <span>Current focus</span>
+        <strong id="topSegment">Loading segment</strong>
+        <p id="topSegmentDetail">Loading operating signal.</p>
       </aside>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>service inefficiency segments</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <nav class="surface-nav" aria-label="Artifact surfaces">
+      <a href="#cockpit">Cockpit</a>
+      <a href="#queue">Queue</a>
+      <a href="#requirements">Requirements</a>
+      <a href="#impact">Impact</a>
+    </nav>
+
+    <section class="metric-grid" id="summaryMetrics" aria-label="Summary metrics"></section>
+
+    <section class="surface" id="cockpit">
+      <div class="surface-copy">
+        <div>
+          <p class="eyebrow">Executive cockpit</p>
+          <h2>Weekly operating readout</h2>
+        </div>
+        <p>Connects service contact volume, avoidable demand, financial leakage, utilization exposure, and member abrasion into one leadership-ready view.</p>
+      </div>
+      <div class="cockpit-grid">
+        <article class="score-card primary">
+          <span>Inefficiency score</span>
+          <strong id="topScore">0.0</strong>
+          <small id="topScoreDetail">Top segment priority score</small>
+        </article>
+        <article class="score-card">
+          <span>Avoidable contact rate</span>
+          <strong id="avoidableRate">0%</strong>
+          <small>Latest synthetic operating week</small>
+        </article>
+        <article class="score-card">
+          <span>Utilization exposure</span>
+          <strong id="utilizationExposure">$0</strong>
+          <small>Weekly modeled exposure</small>
+        </article>
+      </div>
+      <div class="chart-panel">
+        <div class="chart-head">
+          <h3>Six week exposure by highest priority segment</h3>
+          <span>Cost leakage plus utilization exposure</span>
+        </div>
+        <div class="bar-list" id="exposureBars"></div>
+      </div>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Launch blockers</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>service inefficiency segment</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Feedback loop</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Execution queue</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
-      </article>
+
+    <section class="surface" id="queue">
+      <div class="surface-copy">
+        <div>
+          <p class="eyebrow">Business unit queue</p>
+          <h2>Manager follow-up list</h2>
+        </div>
+        <p>Ranks service segments by avoidable contacts, SLA pressure, repeat contacts, financial leakage, utilization exposure, and member experience risk.</p>
+      </div>
+      <div class="queue-layout">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Segment</th>
+                <th>Unit</th>
+                <th>Score</th>
+                <th>Exposure</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="priorityRows"></tbody>
+          </table>
+        </div>
+        <aside class="note-stack" id="leadershipNotes"></aside>
+      </div>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value service inefficiency segment segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="surface split" id="requirements">
+      <div class="surface-copy">
+        <div>
+          <p class="eyebrow">Dashboard evolution</p>
+          <h2>Requirements and data trust</h2>
+        </div>
+        <p>Turns recurring stakeholder questions into scoped dashboard improvements while separating business signal from source-system quality issues.</p>
+      </div>
+      <div class="two-column">
+        <div>
+          <h3>Enhancement backlog</h3>
+          <div class="requirement-list" id="requirementCards"></div>
+        </div>
+        <div>
+          <h3>Quality checks</h3>
+          <div class="quality-list" id="qualityCards"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="surface" id="impact">
+      <div class="surface-copy">
+        <div>
+          <p class="eyebrow">Initiative monitor</p>
+          <h2>Follow-through after the insight</h2>
+        </div>
+        <p>Tracks whether operating actions reduce avoidable demand and modeled service cost instead of stopping at a presentation readout.</p>
+      </div>
+      <div class="initiative-grid" id="initiativeCards"></div>
     </section>
   </main>
+  <script type="module" src="src/app.js"></script>
 </body>
 </html>
